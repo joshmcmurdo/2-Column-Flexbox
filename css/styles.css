@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+html, body {
+  min-height: 100%;
+  max-height: 100%;
+  background: #3E3E3C;
+  margin: 0;
+}
+
+.main-container {
+  width: 100%;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #EEEEEE;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+.main-container .menu-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2A2A28;
+  width: 300px;
+}
+.main-container .menu-bar nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-container .menu-bar nav li {
+  display: inline-block;
+}
+.main-container .menu-bar nav a {
+  color: inherit;
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.main-container .menu-bar nav a:hover {
+  cursor: pointer;
+  color: #DADAD9;
+}
+.main-container .menu-bar nav a:active {
+  outline: none;
+}
+.main-container .content {
+  flex: 1;
+}
+
+/*# sourceMappingURL=styles.css.map */
